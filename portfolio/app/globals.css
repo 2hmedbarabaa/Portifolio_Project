@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+@layer components {
+  .progress-bar {
+    @apply transition-all duration-1000 ease-out;
+    transform-origin: left;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+html {
+  cursor: url('../public/Blackcursor.png') 8 8, auto;
+}
+
+/* Optional: Disable custom cursor on buttons/links */
+button, a {
+  cursor: url('../public/Blackcursor.png') 8 8, auto !important;
+}
