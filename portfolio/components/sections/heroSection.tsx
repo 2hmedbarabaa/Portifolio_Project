@@ -30,25 +30,25 @@ export default function HeroSection() {
         </div>
 
         {/* Buttons Container with Icons */}
-        <div className="flex justify-center gap-10 mt-14">
+        <div className="flex justify-center gap-4 md:gap-10 mt-14">
           <a
             href="#contact"
-            className="bg-[#07374a] text-white px-6 py-3 rounded-lg
+            className="bg-[#07374a] text-white px-4 py-2 md:px-6 md:py-3 rounded-lg
                      hover:bg-[#052a3a] transition-colors duration-300
-                     text-lg font-medium flex items-center gap-2"
+                     text-base md:text-lg font-medium flex items-center gap-2"
           >
             Hire Me
-            <EnvelopeIcon className="h-5 w-5 inline-block" />
+            <EnvelopeIcon className="h-4 w-4 md:h-5 md:w-5 inline-block" />
           </a>
           <a
             href="/cv-ahmed-barabaa.pdf"
             download
-            className="bg-[#07374a] text-white px-6 py-3 rounded-lg
+            className="bg-[#07374a] text-white px-4 py-2 md:px-6 md:py-3 rounded-lg
                      hover:bg-[#052a3a] transition-colors duration-300
-                     text-lg font-medium flex items-center gap-2"
+                     text-base md:text-lg font-medium flex items-center gap-2"
           >
             Download CV
-            <ArrowDownTrayIcon className="h-5 w-5 inline-block" />
+            <ArrowDownTrayIcon className="h-4 w-4 md:h-5 md:w-5 inline-block" />
           </a>
         </div>
       </div>
