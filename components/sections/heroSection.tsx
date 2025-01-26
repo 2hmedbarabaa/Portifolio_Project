@@ -36,7 +36,7 @@ export default function HeroSection() {
             <EnvelopeIcon className="h-4 w-4 md:h-5 md:w-5 inline-block" />
           </a>
           <a
-            href="/cv-ahmed-barabaa.pdf"
+            href="/public/documents/MyCV.pdf"
             download
             className="bg-[#07374a] text-white px-4 py-2 md:px-6 md:py-3 rounded-lg
                      hover:bg-[#052a3a] transition-colors duration-300

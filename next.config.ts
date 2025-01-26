@@ -1,8 +1,8 @@
-/** @type {import('next').NextConfig} */
+// next.config.ts
 const nextConfig = {
-  output: 'export', // Static export
+  output: 'export', // Remove this line if you're NOT doing a static export
   images: {
-    unoptimized: true, // Disable image optimization
+    unoptimized: true, // Required if using `output: 'export'`
   },
 };
 
