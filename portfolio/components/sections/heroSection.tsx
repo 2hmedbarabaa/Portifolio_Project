@@ -9,25 +9,20 @@ export default function HeroSection() {
         <p className="text-xl md:text-2xl">
           Hi, I am <span className="text-[#07374a] text-2xl md:text-3xl">Ahmed Barabaa</span>
         </p>
-
         <div className="text-lg md:text-xl mt-4">
-          <Typewriter
-            sequence={[
-              "Software Engineer",
-              2000,
-              "Front-End Developer",
-              2000,
-              "React Js Enthusiast", 
-              2000,
-            ]}
-            wrapper="p"
-            speed={30}
-            deletionSpeed={40}
-            cursor={true}
-            repeat={Infinity}
-            className="animate-pulse" 
-          />
-        </div>
+  <Typewriter
+    sequence={[
+      "Software Engineer",
+      2000,
+      "Front-End Developer",
+      2000,
+      "React Js Enthusiast",
+      2000,
+    ]}
+    className="animate-pulse"
+  />
+</div>
+
 
         {/* Buttons Container with Icons */}
         <div className="flex justify-center gap-4 md:gap-10 mt-14">
