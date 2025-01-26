@@ -1,9 +1,7 @@
 // next.config.ts
 const nextConfig = {
-  output: 'export', // Remove this line if you're NOT doing a static export
+  output: 'export',
   images: {
-    unoptimized: true, // Required if using `output: 'export'`
+    unoptimized: true, // Required for static exports
   },
 };
-
-export default nextConfig;

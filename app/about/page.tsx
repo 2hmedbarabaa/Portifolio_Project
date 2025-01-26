@@ -20,9 +20,10 @@ export default function AboutPage() {
           
           <div className="relative w-48 h-48 mx-auto mb-8">
             <Image
-              src="/images/people/guy4.jpg" 
+              src="/images/people/Guy4.jpg" 
               alt="Profile Picture"
               fill
+              priority
               className="rounded-full object-cover border-4 border-white shadow-lg"
             />
           </div>
