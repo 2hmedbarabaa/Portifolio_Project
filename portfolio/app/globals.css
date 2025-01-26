@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #07374a;
   --foreground: #171717;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #07374a;
     --foreground: #ededed;
   }
 }
@@ -27,10 +27,15 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 html {
-  cursor: url('../public/Blackcursor.png') 8 8, auto;
+  cursor: url('../public/pointers/Blackcursor.png') 8 8, auto;
+  scroll-behavior: smooth;
 }
 
 /* Optional: Disable custom cursor on buttons/links */
-button, a {
-  cursor: url('../public/Blackcursor.png') 8 8, auto !important;
+button, a , #projects div{
+  cursor: url('../public/pointers/handpointer.png') 8 8, auto !important;
+}
+
+section {
+  scroll-margin-top: 100px;
 }

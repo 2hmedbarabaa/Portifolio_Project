@@ -3,7 +3,7 @@ import ProjectCard from '../ui/projectCard';
 
 export default function ProjectGrid() {
   return (
-    <section id='projects' className="bg-teal-400 py-12">
+    <section id='projects' className="bg-teal-400 py-12 ">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-8 text-white text-center">
           My Projects
